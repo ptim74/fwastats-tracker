@@ -1,0 +1,6 @@
+{
+    "clashApi": {
+        "url": "https://api.clashofclans.com/v1",
+        "token": "--- GET YOUR OWN TOKEN FROM https://developer.clashofclans.com ---"
+  }
+}
