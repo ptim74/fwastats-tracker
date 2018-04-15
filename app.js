@@ -35,7 +35,7 @@ app.get('/', async function (req, res) {
         }
         res.send(JSON.stringify(ret));
     } else {
-        res.sendFile(`${__dirname}/public/index.htm`);
+        res.redirect('index.htm');
     }
 });
 
