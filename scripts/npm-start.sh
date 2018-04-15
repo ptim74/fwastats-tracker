@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /data/tracker
-pm2 reload ecosystem.config.js --env production
+pm2 restart ecosystem.config.js --env production
