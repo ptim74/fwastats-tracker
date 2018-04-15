@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /data/tracker
-npm start
+pm2 start app.js --name fwastats-tracker
