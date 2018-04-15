@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /data/tracker
-npm install
+npm install && npm run-script build

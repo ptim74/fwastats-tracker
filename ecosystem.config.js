@@ -2,7 +2,7 @@ module.exports = {
   apps : [
     {
       name : 'fwastats-tracker',
-      script : 'app.js',
+      script : 'dist/app.js',
       env : {
         COMMON_VARIABLE: 'true'
       },

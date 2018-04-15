@@ -62,3 +62,6 @@ typings/
 
 # dev configuration
 config/development.json
+
+# dist
+dist
