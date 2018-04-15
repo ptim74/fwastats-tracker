@@ -33,6 +33,7 @@ app.get('/', async function (req, res) {
                 status: false
             };
         }
+        res.setHeader('Content-Type', 'application/json; charset=utf-8');
         res.send(JSON.stringify(ret));
     } else {
         res.redirect('index.htm');
