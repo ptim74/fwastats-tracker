@@ -18,14 +18,14 @@ app.get('/', async function (req, res) {
         if(data.memberList)
         {
             console.log(`Fetched clan ${data.tag} ${data.name}`);
-            ret = data.memberList.map(member => {
-                return {
+            ret = data.memberList.map(
+                member => ({
                     tag: member.tag,
                     name: member.name,
                     donated: member.donations,
                     received: member.donationsReceived
-                };
-            });
+                })
+            );
         } else {
             console.log(`Failed to fetch clan ${tag}`);
             console.log(JSON.stringify(data));
