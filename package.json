@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/ptim74/fwastats-tracker",
   "dependencies": {
-    "config": "^1.30.0",
-    "express": "^4.16.3",
-    "node-fetch": "^2.1.2"
+    "config": "^1.31.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "nodemon": "^1.17.3"
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.9"
   }
 }
